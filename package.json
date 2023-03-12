@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "node-sass": "^4.14.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
@@ -26,6 +27,7 @@
     "@vue/eslint-config-typescript": "^7.0.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
+    "sass-loader": "^8.0.2",
     "typescript": "~4.1.5"
   },
   "eslintConfig": {
@@ -47,5 +49,7 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "_id": "wedding-invitation@0.1.0",
+  "readme": "ERROR: No README data found!"
 }

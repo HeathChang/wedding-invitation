@@ -1,10 +1,15 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <base-layout>
+    <router-view/>
+  </base-layout>
 </template>
+
+
+<script setup>
+import BaseLayout from '@/layouts/BaseLayout.vue';
+
+</script>
+
 
 <style lang="scss">
 #app {

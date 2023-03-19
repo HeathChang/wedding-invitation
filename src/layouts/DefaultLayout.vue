@@ -5,7 +5,7 @@
       <div class="page-content">
         <slot/>
       </div>
-      <default-footer/>
+      <default-footer style="z-index: 100000"/>
     </div>
   </div>
 </template>
@@ -17,8 +17,21 @@ import DefaultFooter from "@/components/layouts/DefaultFooter.vue";
 </script>
 
 <style scoped lang="scss">
-.layout-wrapper {
-  width: 100%;
+
+#layout-wrapper {
   height: auto;
+  display: flex;
+
+  .layout-contents {
+    position: relative;
+    width: 100%;
+
+    .page-content {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
 }
+
+
 </style>

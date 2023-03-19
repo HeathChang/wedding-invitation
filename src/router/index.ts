@@ -7,6 +7,12 @@ const routes: Array<RouteRecordRaw> = [
     meta: { layout: "default" },
     component: () => import("@/views/main/index.vue"),
   },
+  {
+    path: "/icons",
+    name: "icons",
+    meta: { layout: "blank" },
+    component: () => import("@/views/icons/index.vue"),
+  },
 ]
 
 const router = createRouter({
